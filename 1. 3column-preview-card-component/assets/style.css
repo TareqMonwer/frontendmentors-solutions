@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+  background-color: hsl(0, 0%, 95%);
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1440px;
+}
+
+.btn {
+  position: absolute;
+  bottom: 2rem;
+  text-decoration: none;
+  background-color: hsl(0, 0%, 95%);
+  padding: 0.6rem 1rem;
+  border-radius: 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.274);
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.title {
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  color: hsl(0, 0%, 95%);
+}
+
+.text-orange {
+  color: hsl(31, 77%, 52%);
+}
+
+.text-cyan {
+  color: hsl(184, 100%, 22%);
+}
+
+.text-dark-cyan {
+  color: hsl(179, 100%, 13%);
+}
+
+.orange {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.light-cyan {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.dark-cyan {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.box-container {
+    width: 750px;
+  min-height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-container .box {
+  height: 400px;
+  padding: 2rem;
+  color: #fff;
+  position: relative;
+}
+
+.box:first-child {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.box:last-child {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
